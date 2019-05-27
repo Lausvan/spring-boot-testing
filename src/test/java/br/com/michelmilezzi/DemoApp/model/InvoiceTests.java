@@ -25,6 +25,11 @@ public class InvoiceTests {
         invoice.addItem(new Product("Product3"), 15L, BigDecimal.ONE);
 
         assertThat(invoice.getTotal()).isEqualByComparingTo(BigDecimal.valueOf(30));
+    } 
+    
+    @Test
+    public void calcular() {
+    	assertThat(Boolean.TRUE).isEqualTo(Boolean.TRUE);
     }
 
 }

@@ -1,7 +1,7 @@
 package br.com.michelmilezzi.DemoApp.service;
 
 
-import br.com.michelmilezzi.DemoApp.exception.InvalidInvoiceException;
+import br.com.michelmilezzi.DemoApp.exception.InvalidInvoiceException; 
 import br.com.michelmilezzi.DemoApp.domain.Invoice;
 import br.com.michelmilezzi.DemoApp.domain.Product;
 import br.com.michelmilezzi.DemoApp.domain.Tax;
